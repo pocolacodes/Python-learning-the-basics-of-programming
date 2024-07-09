@@ -1,0 +1,13 @@
+Summary of THE Project: 
+
+First Step:
+
+1. We asked the user if he/she was inputting Celsius temperature or Fahrenheit temperature.
+
+Second Step :
+
+2. if He was inputting Celsius Temperature The program asked him to type the number then performed the calculation to convert it to Fahrenheit.
+
+Third Step :
+
+3. . if He was inputting Fahrenheit Temperature The program asked him to type the number then performed the calculation to convert it to Celsius.

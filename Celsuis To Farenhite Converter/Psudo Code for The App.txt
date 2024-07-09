@@ -1,0 +1,59 @@
+The Main Purpose of the App is to Convert Celsius Temperature To Fahrenheit(Vice Versa):
+
+Note : VERY IMPORTANT PLEASE READ THIS NEXT LINE
+
+THIS IS FOR DEVELOPERS PLEASE IF YOU ARE A NON TECHNICAL PERSON READ THE SUMMARY NOTE THANK YOU.
+
+So To do this we will need a way to ask the user what kind of temperature he wants.
+We can Do This Using An Input Statement:
+
+What_Tempreture_Are_You_Converting_From = input("\nAre You Converting From Celsuis To Farenhite or Farenhite to Celsuis:?      ")
+
+Then We will Also Need an If and elif statement to check whether  it is Celsuis  or Fahrenheit.
+
+if   What_Tempreture_Are_You_Converting_From == "Celsuis" :
+
+under the if statement we will need a function that collects the Celsius input Converts It to Fahrenheit:
+
+def Celsuis_to_Farenhite():
+
+so under the function we will have an input function that collects the number 
+in string then we type cast it to int:
+
+Celsuis = int(input("\nType Your Tempreture In Celsuis:?(`C)  "))
+
+Now This Variable Is to convert it from Celsuis to Farenhite :
+
+Celsuis_to_Farenhite =  (Celsuis * 1.8) + 32
+
+The Farenhite Value is displayed using this Line 
+print(str(Celsuis_to_Fahrenhite)+"`F")
+
+Now for the function to operate we use this function.
+
+Now We do the same thing for the Fahrenheit temp
+
+But this time we create an elif statement to check for the Fahrenheit:
+ 
+elif What_Tempreture_Are_You_Converting_From =="Fahrenheit" :
+
+create a function that converts from Fahrenheit to Celsius :
+
+def Fahrehite_to_Celsuis():
+
+Basically just follow the same procedure as the Celsius to Fahrenheit 
+except that at the Variable conversion Stage use THE FOEMULAE FOR FARENHITE TO CELSUIS 
+
+WELL THATS Pretty much it, HOPE THIS HELPED 
+
+
+ 
+
+
+
+
+
+
+
+
+
